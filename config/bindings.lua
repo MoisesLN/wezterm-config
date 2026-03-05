@@ -59,11 +59,13 @@ local keys = {
 
    -- tabs --
    -- tabs: spawn+close
+   { key = 't',          mods = 'CTRL',        action = act.SpawnTab('DefaultDomain') },
    { key = 't',          mods = mod.SUPER,     action = act.SpawnTab('DefaultDomain') },
-   { key = 't',          mods = mod.SUPER_REV, action = act.SpawnTab({ DomainName = 'wsl:ubuntu-fish' }) },
+   { key = 'w',          mods = 'CTRL',        action = act.CloseCurrentTab({ confirm = false }) },
    { key = 'w',          mods = mod.SUPER_REV, action = act.CloseCurrentTab({ confirm = false }) },
 
    -- tabs: navigation
+   { key = 'Tab',        mods = 'CTRL',        action = act.ActivateTabRelative(1) },
    { key = '[',          mods = mod.SUPER,     action = act.ActivateTabRelative(-1) },
    { key = ']',          mods = mod.SUPER,     action = act.ActivateTabRelative(1) },
    { key = '[',          mods = mod.SUPER_REV, action = act.MoveTabRelative(-1) },
