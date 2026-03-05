@@ -16,6 +16,10 @@
 
 ---
 
+### Main changes on this fork
+- Removed the JetBrains font
+- Made the window not fullscreen
+
 ### Features
 
 - [**Background Image Selector**](https://github.com/KevinSilvester/wezterm-config/blob/master/utils/backdrops.lua)
@@ -170,25 +174,12 @@
     </details>
 
   - <details>
-    <summary>JetBrainsMono Nerd Font</summary>
-
-    Install with Homebrew (Macos)
-
+    <summary>Fish</summary>
+ 
+    On Linux:
     ```sh
-    brew install --cask font-jetbrains-mono-nerd-font
+    sudo apt install fish
     ```
-
-    Install with Scoop (Windows)
-
-    ```sh
-    scoop bucket add nerd-fonts
-    scoop install JetBrainsMono-NF
-    ```
-
-    > More Info:
-    >
-    > - <https://www.nerdfonts.com/#home>
-    > - <https://github.com/ryanoasis/nerd-fonts?#font-installation>
     </details/>
 
 &nbsp;
